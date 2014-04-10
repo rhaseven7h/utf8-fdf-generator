@@ -1,0 +1,21 @@
+{
+  "author": "Gabriel Medina",
+  "name": "utf8-fdf-generator",
+  "description": "Generates FDF (PDF form input) files with UTF-8 support.",
+  "version": "0.0.1",
+  "keywords": [ "pdf", "fdf", "fill", "form", "generator" ],
+  "main": "./lib/generator.js",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "root@10.13.1.5:/git/utf8-fdf-generator.git"
+  },
+  "dependencies": {
+    "fs": "*",
+    "iconv": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
