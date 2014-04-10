@@ -22,6 +22,19 @@ generator({ myField01: "Gabriel Medina", myField02: "Ciudad Juárez, Chihuahua, 
 // Do whatever you need with file output.fdf here.
 ```
 
+You usually do something like:
+
+```bash
+user@server:~ $ pdftk template.pdf fill_form generated.fdf output final_output.pdf flatten
+```
+
+Where:
+
+- `template.pdf` is the original PDF form
+- `generated.fdf` is the file we generated
+- `final_output.pdf` is the PDF file with fields filled using data from `generated.fdf`
+
+
 [Home Page]:http://rhaseventh.blogspot.mx/2014/04/node-js-pdf-fill-from-fdf-with-utf-16.html
 [Repository]:https://github.com/Rhaseven7h/utf8-fdf-generator
 
