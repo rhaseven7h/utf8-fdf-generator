@@ -16,8 +16,6 @@ Usage
 
 Its is synchronous, just call it, upon return, the file will be already created and you can use it:
 
-<script src="https://gist.github.com/Rhaseven7h/10346136.js"></script>
-
 ``` JavaScript
 generator = require('utf8-fdf-generator').generator;
 generator({ myField01: "Gabriel Medina", myField02: "Ciudad Juárez, Chihuahua, México" }, "output.fdf");
