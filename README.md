@@ -18,6 +18,12 @@ Its is synchronous, just call it, upon return, the file will be already created 
 
 <script src="https://gist.github.com/Rhaseven7h/10346136.js"></script>
 
+``` JavaScript
+generator = require('utf8-fdf-generator').generator;
+generator({ myField01: "Gabriel Medina", myField02: "Ciudad Juárez, Chihuahua, México" }, "output.fdf");
+// Do whatever you need with file output.fdf here.
+```
+
 [Home Page]:http://rhaseventh.blogspot.mx/2014/04/node-js-pdf-fill-from-fdf-with-utf-16.html
 [Repository]:https://github.com/Rhaseven7h/utf8-fdf-generator
 
