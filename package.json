@@ -10,8 +10,7 @@
     "type": "git",
     "url": "https://github.com/Rhaseven7h/utf8-fdf-generator.git"
   },
-  "dependencies": {
-    "iconv": "*"
+  "dependencies": {    
   },
   "engines": {
     "node": "*"
